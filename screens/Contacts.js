@@ -11,7 +11,7 @@ import { MONGODB_APP_CLIENT } from 'react-native-dotenv'
 class Contacts extends Component {
     static navigationOptions = ({ navigation }) => {
         return {
-          title: 'Singles to Match',
+          title: 'Singles',
           headerRight: (
             <Button
               buttonStyle={{ padding: 0, backgroundColor: 'transparent' }}

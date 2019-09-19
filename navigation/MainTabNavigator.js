@@ -111,7 +111,7 @@ const ContactsStack = createStackNavigator(
 );
 
 ContactsStack.navigationOptions = {
-  tabBarLabel: 'Singles',
+  tabBarLabel: 'Contacts',
   tabBarIcon: ({ focused }) => (
     <TabBarIcon focused={focused} name={Platform.OS === 'ios' ? 'ios-contacts' : 'md-contacts'} />
   ),
