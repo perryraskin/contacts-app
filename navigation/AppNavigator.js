@@ -19,12 +19,16 @@ const MainStack = createStackNavigator(
 );
 const RootStack = createStackNavigator(
   {
-    Main: MainStack,
+    Main: {
+      screen: MainStack,
+      navigationOptions: {
+        header: null
+      }
+    },
     NewContact: NewContact,
   },
   {
     mode: 'modal',
-    headerMode: 'none'
   }
 );
 //const AuthStack = createStackNavigator({ SignIn: SignInScreen });

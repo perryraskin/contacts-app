@@ -39,13 +39,13 @@ class NewContact extends Component {
       this[nextField.stateKey].focus();
     }
   };
-  
+
   render() {
     return (
       <KeyboardAwareScrollView style={{ backgroundColor: colors.background }}>
         {
           fields.map((field, index) => (
-            <TextInput 
+            <TextInput
               key={field.stateKey}
               onChangeText={(text) => this.onInputChange(text, field.stateKey)}
               returnKeyType={index === fields.length - 1 ? 'done' : 'next'}
@@ -56,7 +56,7 @@ class NewContact extends Component {
           ))
         }
         <View style={{ marginTop: 20 }}>
-          <PrimaryButton 
+          <PrimaryButton
             label="Save"
             onPress={() => this.handleSubmit(0, true)}
           />
