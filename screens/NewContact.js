@@ -19,6 +19,12 @@ const fields = [
 ];
 
 class NewContact extends Component {
+  static navigationOptions = ({ navigation }) => {
+    return {
+      title: 'New Contact',
+    };
+  };
+
   constructor(props) {
     super(props);
 
