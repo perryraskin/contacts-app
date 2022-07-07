@@ -22,7 +22,7 @@
     "expo-web-browser": "6.0.0",
     "firebase": "^6.6.1",
     "fs": "0.0.1-security",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "mongodb-stitch-react-native-sdk": "^4.5.0",
     "react": "16.8.3",
     "react-dom": "^16.8.6",
